@@ -1,0 +1,248 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fdfbfb;
+    color: #333;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #0066cc;
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: rgb(18, 18, 18);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Section Styles */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.intro {
+    background: linear-gradient(135deg, #000810 0%, #0099ff 100%);
+    color: white;
+    padding: 100px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3.5em;
+    letter-spacing: 1.5px;
+}
+
+h2 {
+    color: #0066cc;
+    margin-bottom: 30px;
+    font-size: 2em;
+    position: relative;
+}
+
+h2::after {
+    content: '';
+    width: 50px;
+    height: 3px;
+    background-color: #0066cc;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+    border-radius: 5px;
+}
+
+p {
+    max-width: 650px;
+    margin: 0 auto 20px auto;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Skills List */
+ul {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1.1em;
+}
+
+/* Project Section */
+.project {
+    background-color: #ffffff;
+    padding: 25px;
+    margin: 25px auto;
+    border-radius: 10px;
+    max-width: 650px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+/* Form Styles */
+form {
+    max-width: 450px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+button {
+    background-color: #0066cc;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #004999;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    font-size: 0.9em;
+}
+
+/* Profile Image */
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Table Styles */
+table {
+    width: 80%;
+    margin: 0 auto 50px auto;
+    border-collapse: collapse;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #0066cc;
+    color: white;
+    font-weight: bold;
+}
+
+td {
+    background-color: #ffffff;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+/* Project Image Styling */
+.project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+i.fab {
+    margin-right: 8px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+i.fab:hover {
+    color: #0066cc;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #007bff; /* Set your desired background color */
+    padding: 10px 0; /* Adjust padding as needed */
+  }
+  
+  nav a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 15px; /* Adjust padding inside each link */
+    background-color: white; /* Background color of the links */
+    border-radius: 5px; /* Rounded corners */
+    font-weight: bold; /* Bold text */
+  }
+  
+  nav a:hover {
+    background-color: #0056b3; /* Hover color */
+    color: white; /* Text color on hover */
+  }
+  
